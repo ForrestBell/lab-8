@@ -44,7 +44,7 @@ while(playerhealth>0 and monsterhealth>0):
        if playerhealth<=0:
             print 'Dead you are.' + ' Failure to the order you are.'
        elif monsterhealth<=0:
-            print 'Killed Ox you have.' + ' Great job you have done.' + ' Sloppy it was, again you must fight.'
+            print 'Killed Ox you have.' + ' Great job you have done.' + 'Perfect it was, fight another one you must.'
     else:
         rand = random.randint(0,7)
         print 'Which attack do you wish to do?'
